@@ -1,117 +1,87 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "developer",
-    "image": "https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png",
-    "email": "johndoe@gmail.com",
-    "phone": "(111) 333-4567",
-    "url": "http://johndoe.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "name": "Brett Moan",
+    "email": "brett.moan@gmail.com",
     "location": {
-      "address": "22111 Makiling",
-      "postalCode": "4027",
-      "city": "Calamba",
-      "countryCode": "PH",
-      "region": "Philippines"
+      "city": "Surprise",
+      "region": "AZ",
+      "postalCode": "85387",
+      "country": "USA"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "johndoe",
-      "url": "http://twitter.com/johndoe"
-    }]
-  },
-  "work": [{
-    "name": "Company",
-    "position": "Developer",
-    "url": "http://somecompany.com",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "highlights": [
-      "Lead Developer of Innovation hub"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "http://organization.com/",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.ph",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "score": "4.0",
-    "courses": [
-      "WEB101 - Web Development",
-      "SYS123 - Object Oriented Programming"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2020-11-01",
-    "awarder": "Company",
-    "summary": "Programmer of the Year 2020"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2020-10-01",
-    "url": "http://publication.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Electronics",
-    "keywords": [
-      "PCB",
-      "IOT"
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "brettmoan",
+        "url": "https://linkedin.com/in/brettmoan"
+      },
+      {
+        "network": "GitHub",
+        "username": "BrettMoan",
+        "url": "https://github.com/BrettMoan"
+      }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "projects": [
+    "summary": "Experienced Senior Engineer with a decade of experience in architecting, designing, and maintaining data-centric applications. Equally adept in data engineering and application development. Very self-sufficient — when in doubt, I just read the manual."
+  },
+  "skills": [
     {
-      "name": "Project Name",
-      "description": "Description...",
-      "highlights": [ 
-        "COVID19 Patient Tracker"
-      ],
+      "name": "Soft Skills",
+      "keywords": ["Negotiating", "Influencing", "Mentoring", "Critical Thinking", "Teamwork", "Communication", "Work Ethic"]
+    },
+    {
+      "name": "Software Engineering",
+      "keywords": ["Python", "Terraform", "SQL", "Automation", "Application Design", "Database Design", "DevOps Practices", "Business Intelligence"]
+    },
+    {
+      "name": "Languages and Tools",
       "keywords": [
-        "PHP", "NodeJS", "Javascript"
-      ],
-      "startDate": "2020-01-01",
-      "endDate": "2020-01-01",
-      "url": "https://project.example.com",
-      "roles": [ 
-        "Lead Developer", "Designer"
-      ],
-      "image": "https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png",
-      "entity": "Facebook, Google, Microsoft, Amazon",
-      "type": "web application"
+        "Python", "Terraform", "Kubernetes", "PostgreSQL", "GCP", "CI/CD (GitHub Actions, Azure Pipelines)",
+        "Bash", "Dockerfiles", "Helm",
+        "Hadoop", "Netezza", "Powershell", "SQL Server", "DB2", "Salesforce", "SAP Business Objects", "Tableau",
+        "SSAS"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "SMBC Manubank / Jeniusbank",
+      "position": "Senior Cloud Engineer",
+      "startDate": "2025-01",
+      "summary": "Architected and implemented replacement solution for various manually and adhoc maintained GCP pipelines. New solution ensures proper controls for authorized changes and proper testing before moving to production, while maintaining development teams ability to deploy when ready.\n\nWorked with Risk and Compliance to identify proper enforcement of controls for audit.\n\nSupport production deployments as part of the banks existing solution for controls of separation of duties between development and prod deployment."
+    },
+    {
+      "company": "EhawkSolutions (via Contract)",
+      "position": "Senior Data Engineer",
+      "startDate": "2024-10",
+      "endDate": "2025-01",
+      "summary": "Architected solution for data ingestion for de-identification of PII elements. Stripped out and replaced PII elements with a UUID for de-identification purposes.\n\nBuilt AWS Glue Jobs for ingesting de-identified data from the DynamoDB exports into flattened, relational models, and ingesting them into Apache Iceberg.\n\nMigrated older Scripts hard-coded python scripts to generic scripts parameterized with toml-based config to simplify and minimize tech debt."
+    },
+    {
+      "company": "Torqata / ATD (American Tire Distributors)",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-01",
+      "endDate": "2024-09",
+      "summary": "Automated Infrastructure with Terraform, Testing and Deployments with Github-actions.\n\nBuilt APIs, pubSub subscriptions, and data movement with Python.\n\nDesigned, built and maintained multiple highly scalable event driven microservices to support business automation. Automation required integrating with customers' Point of Sale systems. The product automatically ordered new inventory when the customer reported their new inventory positions, allowing the customers to keep user defined minimums on hand.\n\nBuilt alerting for customers when automation ran into supply issues, or other configuration limitations enabling users to manually order alternative products.\n\nBuilt and productionized multiple data processing pipelines for various business use cases with combinations of Google Cloud Storage, Google Pubsub, Google Bigquery and Google CloudSQL PostgreSQL.\n\nImplemented bi-directional syncing between postgres databases and business Salesforce applications.\n\nBuilt alerting for both business and fellow engineers when systems are unhealthy.\n\nImplemented custom fuzzy search to assist with ergonomics and typos as users searched complex product numbers."
+    },
+    {
+      "company": "USAA",
+      "position": "DevOps/Data Engineer - I",
+      "startDate": "2019-01",
+      "endDate": "2022-01",
+      "summary": "Tech lead for for team of DevOps engineers with for both production support and build of new modernization.\n\nSupport centralized CI/CD pipelines templates for 100’s of Data Engineers.\n\nMentored Junior and intermediate Devs in SQL, Python, and DevOps practices.\n\nArchitected and Implemented:\n- docker images and CI/CD pipelines to support internal tools and those for other teams.\n- packaging solution based on setuptools that helps novice python devs write and publish python packages to company hosted pypi in artifactory.\n- key rotation utility for snowflake, to allow custom integrations for SafeNet (vendor key vaults) and CyberArk (vendor password safe) to allow syncing of authentication keys to Snowflake DB.\n- complete modernization re-write of python CLI application self healing ETL. (see Data Engineer I accomplishments)"
+    },
+    {
+      "company": "USAA",
+      "position": "Data Engineer - II",
+      "startDate": "2017-01",
+      "endDate": "2019-01",
+      "summary": "Lead team of Data Engineers for development and maintenance of ETL.\n\nContinued support of existing Frameworks developed as a Data Engineer I.\n\nMentored Jr Devs in Database Design, SQL, ETL design and Python.\n\nArchitected and implemented:\n- ETL using a combination of Control-M, Informatica and pyspark.\n- BI solutions using Tableau and SQL Server Analysis Services\n- .Net and Python framework for syncing SQL Server Analysis Services OLAP Cubes to an underlying Datasource."
+    },
+    {
+      "company": "USAA",
+      "position": "Data Engineer - I",
+      "startDate": "2015-01",
+      "endDate": "2017-01",
+      "summary": "Developed ETL using a combination of Control-M and Informatica.\n\nDeveloped BI solutions in Business Objects Webi.\n\nDesigned and developed python libraries for internal use.\n\nCo-authored patented approach for “Self Healing” ETL.\n\nAuthored python CLI application for reusable components as part of self healing ETL. that implements full data regression testing on data being reloaded. In practice this:\n- validates intended data changes from ETL logic changes.\n- alerts for source data changes, showing their effects on the data mart.\n- alerts for detection of non-deterministic ETL, finding defects in ETL logic."
     }
   ]
 }
