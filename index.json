@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Brett Moan",
     "email": "brett.moan@gmail.com",
@@ -52,6 +53,7 @@
       "startDate": "2025-01",
       "summary": "Architected and implemented replacement solution for various manually and adhoc maintained GCP pipelines. New solution ensures proper controls for authorized changes and proper testing before moving to production, while maintaining development teams ability to deploy when ready.\n\nWorked with Risk and Compliance to identify proper enforcement of controls for audit.\n\nSupport production deployments as part of the banks existing solution for controls of separation of duties between development and prod deployment."
     },
+
     {
       "company": "EhawkSolutions (via Contract)",
       "position": "Senior Data Engineer",
