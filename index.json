@@ -20,19 +20,23 @@
         "url": "https://github.com/BrettMoan"
       }
     ],
-    "summary": "Experienced Senior Engineer with a decade of experience in architecting, designing, and maintaining data-centric applications. Equally adept in data engineering and application development. Very self-sufficient — when in doubt, I just read the manual."
+    "summary": "Experienced Senior Engineer with a decade of experience in architecting, designing, and maintaining data-centric applications. Equally adept in data engineering and application development. Very self-sufficient — when in doubt, I just read the manual.",
+    "label": "Senior Platform Engineer"
   },
   "skills": [
     {
       "name": "Soft Skills",
+      "level": "Advanced",
       "keywords": ["Negotiating", "Influencing", "Mentoring", "Critical Thinking", "Teamwork", "Communication", "Work Ethic"]
     },
     {
       "name": "Software Engineering",
+      "level": "Advanced",
       "keywords": ["Python", "Terraform", "SQL", "Automation", "Application Design", "Database Design", "DevOps Practices", "Business Intelligence"]
     },
     {
       "name": "Languages and Tools",
+      "level": "Advanced",
       "keywords": [
         "Python", "Terraform", "Kubernetes", "PostgreSQL", "GCP", "CI/CD (GitHub Actions, Azure Pipelines)",
         "Bash", "Dockerfiles", "Helm",
@@ -42,7 +46,7 @@
     }
   ],
   "work": [
-    {
+ {
       "company": "SMBC Manubank / Jeniusbank",
       "position": "Senior Cloud Engineer",
       "startDate": "2025-01",
@@ -83,5 +87,16 @@
       "endDate": "2017-01",
       "summary": "Developed ETL using a combination of Control-M and Informatica.\n\nDeveloped BI solutions in Business Objects Webi.\n\nDesigned and developed python libraries for internal use.\n\nCo-authored patented approach for “Self Healing” ETL.\n\nAuthored python CLI application for reusable components as part of self healing ETL. that implements full data regression testing on data being reloaded. In practice this:\n- validates intended data changes from ETL logic changes.\n- alerts for source data changes, showing their effects on the data mart.\n- alerts for detection of non-deterministic ETL, finding defects in ETL logic."
     }
-  ]
+  ],
+      "education": [],
+      "awards": [],
+      "publications": [],
+      "volunteer": [],
+      "projects": [],
+      "languages": [
+        { "language": "English", "fluency": "Native speaker" }
+      ],
+      "interests": [],
+      "references": []
+   
 }
