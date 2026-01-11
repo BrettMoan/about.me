@@ -1,5 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": { "theme": "elegant" } ,
   "basics": {
     "name": "Brett Moan",
     "email": "brett.moan@gmail.com",
