@@ -40,10 +40,8 @@
       "name": "Languages and Tools",
       "level": "Advanced",
       "keywords": [
-        "Python", "Terraform", "Kubernetes", "PostgreSQL", "GCP", "CI/CD (GitHub Actions, Azure Pipelines)",
-        "Bash", "Dockerfiles", "Helm",
-        "Hadoop", "Netezza", "Powershell", "SQL Server", "DB2", "Salesforce", "SAP Business Objects", "Tableau",
-        "SSAS"
+        "Python", "Terraform", "Kubernetes", "PostgreSQL", "GCP", "CI/CD (GitHub Actions, Azure Pipelines)", "Bash", "Dockerfiles", "Helm",
+        "Hadoop", "Netezza", "Powershell", "SQL Server", "DB2", "Salesforce", "SAP Business Objects", "Tableau", "SSAS"
       ]
     }
   ],
@@ -52,7 +50,7 @@
       "company": "SMBC Manubank / Jeniusbank",
       "position": "Senior Cloud Engineer",
       "startDate": "2025-01",
-      "summary": "Architected and implemented replacement solution for various manually and adhoc maintained GCP pipelines. New solution ensures proper controls for authorized changes and proper testing before moving to production, while maintaining development teams ability to deploy when ready.\n\nWorked with Risk and Compliance to identify proper enforcement of controls for audit.\n\nSupport production deployments as part of the banks existing solution for controls of separation of duties between development and prod deployment."
+      "summary": "Lead team of 4 Developers. Designed and implemented replacement template for various manually and adhoc maintained GCP pipelines. New templated solution ensured proper controls for authorized changes and proper testing before moving to production. It also maintained development teams's ability to deploy when ready.\n\nWorked with Risk and Compliance to identify proper enforcement of controls for audit.\n\nImplemented replacement for service account tokens, using Workload Identity using ephemeral OIDC tokens. This improved security and minimized risk of leaked credentials, by allowing long-lived credentials to be retired."
     },
 
     {
@@ -60,14 +58,14 @@
       "position": "Senior Data Engineer",
       "startDate": "2024-10",
       "endDate": "2025-01",
-      "summary": "Architected solution for data ingestion for de-identification of PII elements. Stripped out and replaced PII elements with a UUID for de-identification purposes.\n\nBuilt AWS Glue Jobs for ingesting de-identified data from the DynamoDB exports into flattened, relational models, and ingesting them into Apache Iceberg.\n\nMigrated older Scripts hard-coded python scripts to generic scripts parameterized with toml-based config to simplify and minimize tech debt."
+      "summary": "Designed solution for data ingestion for de-identification of PII elements. Stripped out and replaced PII elements with a UUID for de-identification purposes.\n\nBuilt AWS Glue Jobs for ingesting de-identified data from the DynamoDB exports into flattened, relational models, and ingesting them into Apache Iceberg.\n\nMigrated older Scripts hard-coded python scripts to generic scripts parameterized with toml-based config to simplify and minimize tech debt."
     },
     {
       "company": "Torqata / ATD (American Tire Distributors)",
       "position": "Senior Software Engineer",
       "startDate": "2022-01",
       "endDate": "2024-09",
-      "summary": "Automated Infrastructure with Terraform, Testing and Deployments with Github-actions.\n\nBuilt APIs, pubSub subscriptions, and data movement with Python.\n\nDesigned, built and maintained multiple highly scalable event driven microservices to support business automation. Automation required integrating with customers' Point of Sale systems. The product automatically ordered new inventory when the customer reported their new inventory positions, allowing the customers to keep user defined minimums on hand.\n\nBuilt alerting for customers when automation ran into supply issues, or other configuration limitations enabling users to manually order alternative products.\n\nBuilt and productionized multiple data processing pipelines for various business use cases with combinations of Google Cloud Storage, Google Pubsub, Google Bigquery and Google CloudSQL PostgreSQL.\n\nImplemented bi-directional syncing between postgres databases and business Salesforce applications.\n\nBuilt alerting for both business and fellow engineers when systems are unhealthy.\n\nImplemented custom fuzzy search to assist with ergonomics and typos as users searched complex product numbers."
+      "summary": "Automated Infrastructure with Terraform, Testing and Deployments with GitHub-actions.\n\nBuilt APIs, Pub/Sub, and data movement with Python.\n\nDesigned, built and maintained multiple highly scalable event driven microservices to support business automation. Automation required integrating with customers' point of sale systems. The product automatically ordered new inventory when the customer reported their new inventory positions, allowing the customers to keep user defined minimums on hand.\n\nBuilt alerting for customers when automation ran into supply issues, or other configuration limitations enabling users to manually order alternative products.\n\nBuilt and production-ized multiple data processing pipelines for various business use cases with combinations of Google Cloud Storage, Google Pubsub, Google Bigquery and Google CloudSQL PostgreSQL.\n\nImplemented bi-directional syncing between postgres databases and business Salesforce applications.\n\nBuilt alerting for both business and fellow engineers when systems are unhealthy.\n\nImplemented custom fuzzy search to assist with ergonomics and typos as users searched complex product numbers."
     },
     {
       "company": "USAA",
